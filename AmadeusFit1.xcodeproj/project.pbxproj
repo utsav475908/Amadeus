@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9CA22931DE2C39A00AF7BD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA22921DE2C39A00AF7BD9 /* main.m */; };
+		A9CA22961DE2C39A00AF7BD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA22951DE2C39A00AF7BD9 /* AppDelegate.m */; };
+		A9CA22991DE2C39A00AF7BD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA22981DE2C39A00AF7BD9 /* ViewController.m */; };
+		A9CA229C1DE2C39A00AF7BD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA229A1DE2C39A00AF7BD9 /* Main.storyboard */; };
+		A9CA229E1DE2C39A00AF7BD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CA229D1DE2C39A00AF7BD9 /* Assets.xcassets */; };
+		A9CA22A11DE2C39A00AF7BD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CA229F1DE2C39A00AF7BD9 /* LaunchScreen.storyboard */; };
+		A9CA22AC1DE2C39B00AF7BD9 /* AmadeusFit1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA22AB1DE2C39B00AF7BD9 /* AmadeusFit1Tests.m */; };
+		A9CA22B71DE2C39B00AF7BD9 /* AmadeusFit1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CA22B61DE2C39B00AF7BD9 /* AmadeusFit1UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9CA22A81DE2C39A00AF7BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CA22861DE2C39A00AF7BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CA228D1DE2C39A00AF7BD9;
+			remoteInfo = AmadeusFit1;
+		};
+		A9CA22B31DE2C39B00AF7BD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9CA22861DE2C39A00AF7BD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9CA228D1DE2C39A00AF7BD9;
+			remoteInfo = AmadeusFit1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9CA228E1DE2C39A00AF7BD9 /* AmadeusFit1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmadeusFit1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA22921DE2C39A00AF7BD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9CA22941DE2C39A00AF7BD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9CA22951DE2C39A00AF7BD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9CA22971DE2C39A00AF7BD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9CA22981DE2C39A00AF7BD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9CA229B1DE2C39A00AF7BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CA229D1DE2C39A00AF7BD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CA22A01DE2C39A00AF7BD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CA22A21DE2C39A00AF7BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CA22A71DE2C39A00AF7BD9 /* AmadeusFit1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmadeusFit1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA22AB1DE2C39B00AF7BD9 /* AmadeusFit1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmadeusFit1Tests.m; sourceTree = "<group>"; };
+		A9CA22AD1DE2C39B00AF7BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CA22B21DE2C39B00AF7BD9 /* AmadeusFit1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmadeusFit1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CA22B61DE2C39B00AF7BD9 /* AmadeusFit1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmadeusFit1UITests.m; sourceTree = "<group>"; };
+		A9CA22B81DE2C39B00AF7BD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CA228B1DE2C39A00AF7BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22A41DE2C39A00AF7BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22AF1DE2C39B00AF7BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9CA22851DE2C39A00AF7BD9 = {
+			isa = PBXGroup;
+			children = (
+				A9CA22901DE2C39A00AF7BD9 /* AmadeusFit1 */,
+				A9CA22AA1DE2C39A00AF7BD9 /* AmadeusFit1Tests */,
+				A9CA22B51DE2C39B00AF7BD9 /* AmadeusFit1UITests */,
+				A9CA228F1DE2C39A00AF7BD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CA228F1DE2C39A00AF7BD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA228E1DE2C39A00AF7BD9 /* AmadeusFit1.app */,
+				A9CA22A71DE2C39A00AF7BD9 /* AmadeusFit1Tests.xctest */,
+				A9CA22B21DE2C39B00AF7BD9 /* AmadeusFit1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CA22901DE2C39A00AF7BD9 /* AmadeusFit1 */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA22941DE2C39A00AF7BD9 /* AppDelegate.h */,
+				A9CA22951DE2C39A00AF7BD9 /* AppDelegate.m */,
+				A9CA22971DE2C39A00AF7BD9 /* ViewController.h */,
+				A9CA22981DE2C39A00AF7BD9 /* ViewController.m */,
+				A9CA229A1DE2C39A00AF7BD9 /* Main.storyboard */,
+				A9CA229D1DE2C39A00AF7BD9 /* Assets.xcassets */,
+				A9CA229F1DE2C39A00AF7BD9 /* LaunchScreen.storyboard */,
+				A9CA22A21DE2C39A00AF7BD9 /* Info.plist */,
+				A9CA22911DE2C39A00AF7BD9 /* Supporting Files */,
+			);
+			path = AmadeusFit1;
+			sourceTree = "<group>";
+		};
+		A9CA22911DE2C39A00AF7BD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA22921DE2C39A00AF7BD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9CA22AA1DE2C39A00AF7BD9 /* AmadeusFit1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA22AB1DE2C39B00AF7BD9 /* AmadeusFit1Tests.m */,
+				A9CA22AD1DE2C39B00AF7BD9 /* Info.plist */,
+			);
+			path = AmadeusFit1Tests;
+			sourceTree = "<group>";
+		};
+		A9CA22B51DE2C39B00AF7BD9 /* AmadeusFit1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9CA22B61DE2C39B00AF7BD9 /* AmadeusFit1UITests.m */,
+				A9CA22B81DE2C39B00AF7BD9 /* Info.plist */,
+			);
+			path = AmadeusFit1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CA228D1DE2C39A00AF7BD9 /* AmadeusFit1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA22BB1DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1" */;
+			buildPhases = (
+				A9CA228A1DE2C39A00AF7BD9 /* Sources */,
+				A9CA228B1DE2C39A00AF7BD9 /* Frameworks */,
+				A9CA228C1DE2C39A00AF7BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmadeusFit1;
+			productName = AmadeusFit1;
+			productReference = A9CA228E1DE2C39A00AF7BD9 /* AmadeusFit1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9CA22A61DE2C39A00AF7BD9 /* AmadeusFit1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA22BE1DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1Tests" */;
+			buildPhases = (
+				A9CA22A31DE2C39A00AF7BD9 /* Sources */,
+				A9CA22A41DE2C39A00AF7BD9 /* Frameworks */,
+				A9CA22A51DE2C39A00AF7BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CA22A91DE2C39A00AF7BD9 /* PBXTargetDependency */,
+			);
+			name = AmadeusFit1Tests;
+			productName = AmadeusFit1Tests;
+			productReference = A9CA22A71DE2C39A00AF7BD9 /* AmadeusFit1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9CA22B11DE2C39B00AF7BD9 /* AmadeusFit1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CA22C11DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1UITests" */;
+			buildPhases = (
+				A9CA22AE1DE2C39B00AF7BD9 /* Sources */,
+				A9CA22AF1DE2C39B00AF7BD9 /* Frameworks */,
+				A9CA22B01DE2C39B00AF7BD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9CA22B41DE2C39B00AF7BD9 /* PBXTargetDependency */,
+			);
+			name = AmadeusFit1UITests;
+			productName = AmadeusFit1UITests;
+			productReference = A9CA22B21DE2C39B00AF7BD9 /* AmadeusFit1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CA22861DE2C39A00AF7BD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = kumar;
+				TargetAttributes = {
+					A9CA228D1DE2C39A00AF7BD9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A9CA22A61DE2C39A00AF7BD9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9CA228D1DE2C39A00AF7BD9;
+					};
+					A9CA22B11DE2C39B00AF7BD9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9CA228D1DE2C39A00AF7BD9;
+					};
+				};
+			};
+			buildConfigurationList = A9CA22891DE2C39A00AF7BD9 /* Build configuration list for PBXProject "AmadeusFit1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CA22851DE2C39A00AF7BD9;
+			productRefGroup = A9CA228F1DE2C39A00AF7BD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CA228D1DE2C39A00AF7BD9 /* AmadeusFit1 */,
+				A9CA22A61DE2C39A00AF7BD9 /* AmadeusFit1Tests */,
+				A9CA22B11DE2C39B00AF7BD9 /* AmadeusFit1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CA228C1DE2C39A00AF7BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA22A11DE2C39A00AF7BD9 /* LaunchScreen.storyboard in Resources */,
+				A9CA229E1DE2C39A00AF7BD9 /* Assets.xcassets in Resources */,
+				A9CA229C1DE2C39A00AF7BD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22A51DE2C39A00AF7BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22B01DE2C39B00AF7BD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CA228A1DE2C39A00AF7BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA22991DE2C39A00AF7BD9 /* ViewController.m in Sources */,
+				A9CA22961DE2C39A00AF7BD9 /* AppDelegate.m in Sources */,
+				A9CA22931DE2C39A00AF7BD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22A31DE2C39A00AF7BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA22AC1DE2C39B00AF7BD9 /* AmadeusFit1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CA22AE1DE2C39B00AF7BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CA22B71DE2C39B00AF7BD9 /* AmadeusFit1UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9CA22A91DE2C39A00AF7BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CA228D1DE2C39A00AF7BD9 /* AmadeusFit1 */;
+			targetProxy = A9CA22A81DE2C39A00AF7BD9 /* PBXContainerItemProxy */;
+		};
+		A9CA22B41DE2C39B00AF7BD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9CA228D1DE2C39A00AF7BD9 /* AmadeusFit1 */;
+			targetProxy = A9CA22B31DE2C39B00AF7BD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9CA229A1DE2C39A00AF7BD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA229B1DE2C39A00AF7BD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CA229F1DE2C39A00AF7BD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CA22A01DE2C39A00AF7BD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CA22B91DE2C39B00AF7BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9CA22BA1DE2C39B00AF7BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CA22BC1DE2C39B00AF7BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmadeusFit1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9CA22BD1DE2C39B00AF7BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AmadeusFit1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9CA22BF1DE2C39B00AF7BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmadeusFit1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmadeusFit1.app/AmadeusFit1";
+			};
+			name = Debug;
+		};
+		A9CA22C01DE2C39B00AF7BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AmadeusFit1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AmadeusFit1.app/AmadeusFit1";
+			};
+			name = Release;
+		};
+		A9CA22C21DE2C39B00AF7BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmadeusFit1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmadeusFit1;
+			};
+			name = Debug;
+		};
+		A9CA22C31DE2C39B00AF7BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AmadeusFit1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumar.AmadeusFit1.AmadeusFit1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AmadeusFit1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CA22891DE2C39A00AF7BD9 /* Build configuration list for PBXProject "AmadeusFit1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA22B91DE2C39B00AF7BD9 /* Debug */,
+				A9CA22BA1DE2C39B00AF7BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CA22BB1DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA22BC1DE2C39B00AF7BD9 /* Debug */,
+				A9CA22BD1DE2C39B00AF7BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9CA22BE1DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA22BF1DE2C39B00AF7BD9 /* Debug */,
+				A9CA22C01DE2C39B00AF7BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A9CA22C11DE2C39B00AF7BD9 /* Build configuration list for PBXNativeTarget "AmadeusFit1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CA22C21DE2C39B00AF7BD9 /* Debug */,
+				A9CA22C31DE2C39B00AF7BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CA22861DE2C39A00AF7BD9 /* Project object */;
+}
