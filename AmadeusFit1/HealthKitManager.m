@@ -22,6 +22,7 @@
     dispatch_once(&pred, ^{
         instance = [[HealthKitManager alloc]init];
         instance.healthStore = [[HKHealthStore alloc]init];
+        NSLog(@"Ab commit hoga");s
     });
     return instance;
 }
